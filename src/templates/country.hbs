@@ -1,0 +1,16 @@
+<section>
+  <h1 class='header'>{{name}}</h1>
+  <div class='info'>
+    <div>
+      <p class='descriptionHeaders'>Capital: <span class='description'>{{capital}}</span></p>
+      <p class='descriptionHeaders'>Population: <span class='description'>{{population}}</span></p>
+      <p class='descriptionHeaders'>Languages:</p>
+      <ul>
+        {{#each languages}}
+          <li>{{this.name}}</li>
+        {{/each}}
+      </ul>
+    </div>
+    <img src='{{flag}}' alt='{{name}}' class='flag' />
+  </div>
+</section>

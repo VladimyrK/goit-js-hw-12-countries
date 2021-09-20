@@ -1,0 +1,27 @@
+.input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-size: 30px;
+}
+.header {
+  text-align: center;
+
+  font-size: 50px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 30px;
+}
+.flag {
+  width: 600px;
+}
+.descriptionHeaders {
+  font-weight: 500;
+}
+.description {
+  font-weight: 300;
+}
