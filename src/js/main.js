@@ -5,9 +5,14 @@ import { alert, defaultModules } from '@pnotify/core';
 import '@pnotify/core/dist/PNotify.css';
 import * as PNotifyMobile from '@pnotify/mobile';
 import '@pnotify/mobile/dist/PNotifyMobile.css';
+import { defaults } from '@pnotify/core';
+
 import debounce from 'lodash.debounce';
 
 defaultModules.set(PNotifyMobile, {});
+defaults.addClass = 'pnotify';
+defaults.width = '600px';
+defaults.maxTextHeight = null;
 
 const input = document.querySelector('.input');
 const list = document.querySelector('.list');

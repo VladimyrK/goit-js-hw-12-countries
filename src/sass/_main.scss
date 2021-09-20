@@ -25,3 +25,10 @@
 .description {
   font-weight: 300;
 }
+.pnotify {
+  position: absolute;
+  z-index: 9999;
+  left: 30%;
+
+  font-size: 30px;
+}
